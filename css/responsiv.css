@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+  .logo a {
+    font-size: 1rem;
+  }
+  .nav .fa-bars {
+    display: block;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav select {
+    display: none;
+  }
+  .about__content img {
+    transform: scale(1);
+  }
+  .offer form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .menu .img {
+    width: 40%;
+  }
+  .menu .img img {
+    margin-bottom: 1rem;
+  }
+  .footer form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}/*# sourceMappingURL=responsiv.css.map */
