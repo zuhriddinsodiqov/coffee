@@ -15,33 +15,40 @@
 </head>
 
 <body>
+
+  
     <div id="header" class="w-100">
 
         <div id="overlay">
-            <div class="navigation">
+            <div class="navigation text-light mb-4">
                 <div class="container">
-                    <div class="navbar">
-                        <div class="logo">
-                            <a class=" text-light" href="">KOPPEE</a>
+                    <nav class="navbar navbar-expand-lg navbar-light mb-4">
+                        <div class="container-fluid text-light">
+                          <div class="logo">
+                            <a class="navbar-brand  fs-1" href="#">KOPPEE</a>
+                            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <i class="navbar-toggler-icon text-light"></i>
+                            </button>
+                          </div>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">about</a>
+                                <a class="nav-link" href="#">services</a>
+                                <a class="nav-link" href="#">menu</a>
+                                <select class="mb-4" name="" id="">
+                                    <option class="text-dark" value="">Pages</option>
+                                    <option class="text-dark"  value="">Testimonial</option>
+                                    <option class="text-dark"  value="">Reservation </option>
+                                </select>
+                                    <a class="nav-link mb-4" href="#">contact</a>
+                              </div>
+                          </div>
                         </div>
-                        <div class="nav">
-                            <a class="me-3 text-light fs-5 " href="">Home</a>
-                            <a class="me-3 text-light fs-5" href="">About</a>
-                            <a class="me-3 text-light fs-5" href="">Service</a>
-                            <a class="me-3 text-light fs-5" href="">Menu</a>
-                            <select class="me-3">
-                                <option class="text-dark fs-5" value="/pages">Pages</option>
-                                <option class="text-dark fs-5" value="/reservation">Reservation</option>
-                                <option class="text-dark fs-5" value="/testimonial">Testimonial</option>
-                            </select>
-    
-                            <a class="me-3 text-light fs-5" href="">Contact</a>
-                            <i class="fa-solid fa-bars"> </i>
-                        </div>
-                    </div>
+                      </nav>
                 </div>
             </div>
-            <div class="banner text-light w-100">
+            <div class="banner text-light w-100 mt-5">
                 <div class="container">
                     <div class="row">
                         <udiv class="col">
@@ -57,6 +64,7 @@
     </div>
     <div class="about w-100">
         <div class="container">
+            <div class="hr"></div>
             <div class="row text-center">
                 <div class="col">
                     <h3 class="fs-4">ABOUT US</h3>
@@ -96,6 +104,7 @@
     </div>
     <div class="services mt-5 w-100">
         <div class="container">
+            <div class="hr"></div>
             <div class="row text-center">
                 <div class="col">
                     <h3 class="fs-4">OUR SERVICES</h3>
@@ -175,7 +184,7 @@
                 <div class="col">
                     <form>
                         <input type="text" placeholder="your email">
-                        <button class="btn btn-outline-danger text-capitalize">sing up</button>
+                        <button>sing up</button>
                     </form>
                 </div>
             </div>
@@ -185,6 +194,7 @@
 
     <div class="menu">
         <div class="container">
+            <div class="hr"></div>
             <div class="row text-center">
                 <div class="col">
                     <h3>MENU & PRICING</h3>
@@ -291,9 +301,10 @@
     </div>
 
     <div class="contact">
-        <div id="overlay">
+
             <div class="container">
                 <div class="contact__content">
+                    <div id="overlay">
                     <div class="row">
                         <div class="col-md-6 p-5">
                             <h2>30% OFF</h2>
@@ -326,8 +337,8 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
     </div>
 
 
@@ -335,6 +346,7 @@
 
     <div class="testimonial m-auto">
         <div class="container">
+            <div class="hr"></div>
             <div class="row text-center">
                 <div class="col">
                     <h3>TESTIMONIAL</h3>
@@ -431,7 +443,7 @@
                             <h3>NEWSLETTER</h3>
                             <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
                             <input type="text" placeholder="your email">
-                            <button class="btn btn-outline-danger text-capitalize">sing up</button>
+                            <button>sing up</button>
                         </form>
                     </div>
                 </div>

@@ -29,15 +29,18 @@
     .navigation{
         width: 100%;
         height: 10vh;
-        .navbar
-        {
-            .logo{
-                a{
-                    font-size: 5rem;
-                }
+
+        .container-fluid{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .navbar-brand{
+                color: #fff;
             }
-            .nav{
-                a{
+            .navbar-nav{
+                .nav-link{
                     color: #fff;
                     transition: all 0.5s linear;
                     &:hover{
@@ -57,9 +60,9 @@
                 }
             }
         }
+     
+        }
     }
-
-}
 #overlay{
     width: 100%;
     height: 100%;
@@ -80,6 +83,13 @@
         font-size: 1.2rem;
         color:#D49A59;
     }
+}
+.hr{
+    border-left: 3px solid #000;
+    width: 3px;
+    height: 20vh;
+    margin: 0 auto;
+    border-color: #D49A59;
 }
 .about{
     @include card();
@@ -137,6 +147,12 @@
         button{
             margin-left: -5px;
             height: 10vh;
+            border: 0;
+            width: 10%;
+            outline:0;
+            background-color: red;
+            text-transform: capitalize;
+            color: #fff
         }
     }
 }
@@ -234,6 +250,11 @@
         button{
             margin-left: -5px;
             height: 10vh;
+            background-color: red;
+            border: 0;
+            outline: 0;
+            text-transform: capitalize;
+            width: 30%;
         }
     }
 }

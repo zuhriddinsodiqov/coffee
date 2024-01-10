@@ -1,7 +1,17 @@
 @media only screen and (max-width:768px) {
+    .fa-bars{
+        color: #fff;
+    }
     .logo{
         a{
             font-size: 1rem;
+        }
+    }
+    .navigation{
+        background-color: #fff;
+        color: #000;
+        .navbar-brand{
+            color:#000;
         }
     }
     .nav{
@@ -26,6 +36,9 @@
                 display: block;
                 width: 100%;
                 margin-bottom: 1rem;
+            }
+            button{
+                width: 30%;
             }
         }
     }
